@@ -1,6 +1,7 @@
 def my_superfunction():
     # Это функция для Пафнутия. Он ее редактирует.
     print('What an awesome print!')
+    print("Ивано всделал свой новый принт")
 
 
 def main():
@@ -8,6 +9,7 @@ def main():
     print('Я вношу изменения каждый день!')
     print('Снова')
     print('UFO came and added this line')
+    print("Вот новый принт для нового коммита")
     my_superfunction()
 
 
