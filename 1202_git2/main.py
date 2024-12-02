@@ -1,4 +1,5 @@
 def my_superfunction():
+    # С этой функцией работает Иванов!
     print('What an awesome print!')
 
 
