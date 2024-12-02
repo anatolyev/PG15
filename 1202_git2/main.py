@@ -3,9 +3,9 @@ def my_superfunction():
 
 
 def main():
-    print('My first git program')
-    print('And I change it every day')
-    print('Again')
+    print('Это моя первая гит программа')
+    print('Я вношу изменения каждый день!')
+    print('Снова')
     print('UFO came and added this line')
     my_superfunction()
 
