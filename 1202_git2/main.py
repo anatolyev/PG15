@@ -1,12 +1,12 @@
 def my_superfunction():
-    # С этой функцией работает Иванов!
+    # Это функция для Пафнутия. Он ее редактирует.
     print('What an awesome print!')
 
 
 def main():
-    print('My first git program')
-    print('And I change it every day')
-    print('Again')
+    print('Это моя первая гит программа')
+    print('Я вношу изменения каждый день!')
+    print('Снова')
     print('UFO came and added this line')
     my_superfunction()
 
