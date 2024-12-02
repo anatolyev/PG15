@@ -1,4 +1,5 @@
 def my_superfunction():
+    # Это функция для Пафнутия. Он ее редактирует.
     print('What an awesome print!')
 
 
