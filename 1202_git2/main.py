@@ -7,6 +7,7 @@ def main():
     print('Я вношу изменения каждый день!')
     print('Снова')
     print('UFO came and added this line')
+    print("Вот новый принт для нового коммита")
     my_superfunction()
 
 
