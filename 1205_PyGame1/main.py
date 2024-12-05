@@ -23,7 +23,15 @@ def draw2(screen):
     for i in range(1000):
         screen.fill(pygame.Color('white'),
                     (random.random() * width,
-                     random.random() * height, 1, 1))
+                     random.random() * height, 10, 2))
+
+
+def draw3(screen):
+    screen.fill((0, 0, 0))
+    pygame.draw.rect(screen, (0, 255, 0),
+                     (100, 100,
+                      200, 200), 1)
+    pygame.draw.polygon(screen, pygame.Color('orange'), [(0, 0), (150, 50), (50, 150)], 0)
 
 
 if __name__ == '__main__':
@@ -31,7 +39,7 @@ if __name__ == '__main__':
     size = width, height = 800, 600
     screen = pygame.display.set_mode(size)
 
-    draw2(screen)
+    draw3(screen)
     # Смена кадров (обновление экрана)
     pygame.display.flip()
 

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Привели к рабочей версии при помощи цикла из справки">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Построили вторую функцию">
       <change beforePath="$PROJECT_DIR$/1205_PyGame1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/1205_PyGame1/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733406111831</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Построили вторую функцию">
+      <option name="closed" value="true" />
+      <created>1733406779694</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733406779694</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +189,7 @@
     <MESSAGE value="Создали цикл с ожиданием!" />
     <MESSAGE value="Есть нерабочая версия программы" />
     <MESSAGE value="Привели к рабочей версии при помощи цикла из справки" />
-    <option name="LAST_COMMIT_MESSAGE" value="Привели к рабочей версии при помощи цикла из справки" />
+    <MESSAGE value="Построили вторую функцию" />
+    <option name="LAST_COMMIT_MESSAGE" value="Построили вторую функцию" />
   </component>
 </project>
