@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Создали окно с размером 800-600">
+    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Создали цикл с ожиданием!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1205_PyGame1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/1205_PyGame1/main.py" afterDir="false" />
     </list>
@@ -114,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733404127378</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Создали цикл с ожиданием!">
+      <option name="closed" value="true" />
+      <created>1733404358108</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733404358108</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +141,7 @@
     <MESSAGE value="Создана ветка main" />
     <MESSAGE value="Создана новая папка 1202" />
     <MESSAGE value="Создали окно с размером 800-600" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создали окно с размером 800-600" />
+    <MESSAGE value="Создали цикл с ожиданием!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создали цикл с ожиданием!" />
   </component>
 </project>
