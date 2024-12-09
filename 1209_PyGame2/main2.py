@@ -1,4 +1,7 @@
 # Example file showing a circle moving on screen
+# Примеры событий
+# python -m pygame.examples.eventlist
+
 import pygame
 
 # pygame setup
