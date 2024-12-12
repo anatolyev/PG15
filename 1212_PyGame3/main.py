@@ -14,7 +14,13 @@ class Board:
         self.top = top
         self.cell_size = cell_size
 
-
+    def render(self, screen):
+        for x in range(self.width):
+            for y in range(self.height):
+                pygame.draw.rect(screen, pygame.Color("white"), (
+                                 x * self.cell_size + self.left,
+                                 y * self.cell_size + self.top,
+                                 self.cell_size, self.cell_size), 1)
 
 def main():
     # pygame setup
@@ -35,7 +41,7 @@ def main():
                 running = False
 
         screen.fill("black")
-
+        board.render(screen)
         pygame.display.flip()
         # limits FPS to 60
         # independent physics.
