@@ -22,14 +22,28 @@ class Board:
                                  y * self.cell_size + self.top,
                                  self.cell_size, self.cell_size), 1)
 
+    def get_click(self, mouse_pos):
+        cell = self.get_cell(mouse_pos)
+        self.on_click(cell)
+
+    def get_cell(self, mouse_pos):
+        x = (mouse_pos[0] - self.left) // self.cell_size
+        y = (mouse_pos[1] - self.top) // self.cell_size
+        if self.width >= x + 1 > 0 and self.height >= y + 1 > 0:
+            return x, y
+
+    def on_click(self, cell):
+        print(f"Была выбрана ячейка {cell}")
+
 def main():
     # pygame setup
     pygame.init()
-    size = width, height = 1280, 720
+    size = width, height = 600, 400
     screen = pygame.display.set_mode(size)
     clock = pygame.time.Clock()
     pygame.display.set_caption("Клетка")
-    board = Board(5, 7)
+    board = Board(7, 4)
+    board.set_view(100, 100, 50)
     running = True
 
     while running:
@@ -39,6 +53,8 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                board.get_click(event.pos)
 
         screen.fill("black")
         board.render(screen)
