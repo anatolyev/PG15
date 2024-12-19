@@ -2,6 +2,8 @@
 import os
 import sys
 import pygame
+from random import randrange
+
 
 def load_image(name, colorkey=None):
     fullname = os.path.join('images', name)
@@ -19,20 +21,31 @@ def load_image(name, colorkey=None):
         image = image.convert_alpha()  # спользуется для добавления прозрачности к изображению
     return image
 
+class Bomb(pygame.sprite.Sprite):
+
+    def __init__(self, group, width, height):
+        super().__init__(group)
+        self.image = load_image("bomb.png")
+        self.rect = self.image.get_rect()
+        self.rect.x = randrange(width)
+        self.rect.y = randrange(height)
+
+    def update(self):
+        self.rect = self.rect.move(randrange(3) - 1,
+                                   randrange(3) - 1)
+
+
+
 def main():
     # pygame setup
     pygame.init()
-    screen = pygame.display.set_mode((1280, 720))
+    size = width, height = 1280, 720
+    screen = pygame.display.set_mode(size)
+    all_sprites = pygame.sprite.Group()
+    for _ in range(50):
+        Bomb(all_sprites, width, height)
     clock = pygame.time.Clock()
     # fill the screen with a color to wipe away anything from last frame
-    screen.fill("purple")
-    image = load_image('robot.png', -1)
-    image1 = pygame.transform.scale(image, (300, 100))
-    screen.blit(image1, (100, 200))
-    image2 = pygame.transform.scale(image, (100, 300))
-    screen.blit(image2, (400, 200))
-    image3 = pygame.transform.scale(image, (200, 50))
-    screen.blit(image3, (700, 200))
     running = True
 
     while running:
@@ -41,9 +54,13 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
-            if event.type == pygame.MOUSEBUTTONDOWN:
-                screen.blit(image, event.pos)
+            # if event.type == pygame.MOUSEBUTTONDOWN:
+            #     screen.blit(image, event.pos)
         # RENDER YOUR GAME HERE
+        screen.fill("purple")
+        all_sprites.draw(screen)
+        all_sprites.update()
+
         # flip() the display to put your work on screen
         pygame.display.flip()
         clock.tick(60)  # limits FPS to 60
