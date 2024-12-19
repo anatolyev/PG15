@@ -26,13 +26,17 @@ class Bomb(pygame.sprite.Sprite):
     def __init__(self, group, width, height):
         super().__init__(group)
         self.image = load_image("bomb.png")
+        self.image_boom = load_image("boom.png")
         self.rect = self.image.get_rect()
         self.rect.x = randrange(width)
         self.rect.y = randrange(height)
 
-    def update(self):
+    def update(self, *args):
         self.rect = self.rect.move(randrange(3) - 1,
                                    randrange(3) - 1)
+        if (args and args[0].type == pygame.MOUSEBUTTONDOWN and
+                self.rect.collidepoint(args[0].pos)):
+            self.image = self.image_boom
 
 
 
@@ -54,8 +58,8 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
-            # if event.type == pygame.MOUSEBUTTONDOWN:
-            #     screen.blit(image, event.pos)
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                all_sprites.update(event)
         # RENDER YOUR GAME HERE
         screen.fill("purple")
         all_sprites.draw(screen)
