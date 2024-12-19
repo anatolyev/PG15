@@ -1,5 +1,15 @@
 # Example file showing a basic pygame "game loop"
+import os
+import sys
 import pygame
+
+def load_image(name):
+    fullname = os.path.join('images', name)
+    if not os.path.isfile(fullname):
+        print(f'Файл с изображением "{fullname}" не найден')
+        sys.exit()
+    image = pygame.image.load(fullname)
+    return image
 
 def main():
     # pygame setup
@@ -8,6 +18,7 @@ def main():
     clock = pygame.time.Clock()
     # fill the screen with a color to wipe away anything from last frame
     screen.fill("white")
+    image = load_image('')
     running = True
 
     while running:
