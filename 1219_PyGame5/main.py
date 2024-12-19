@@ -18,7 +18,7 @@ def main():
     clock = pygame.time.Clock()
     # fill the screen with a color to wipe away anything from last frame
     screen.fill("white")
-    image = load_image('')
+    image = load_image('bomb.png')
     running = True
 
     while running:
@@ -27,6 +27,8 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
+            if event.type == pygame.MOUSEBUTTONDOWN:
+                screen.blit(image, event.pos)
         # RENDER YOUR GAME HERE
         # flip() the display to put your work on screen
         pygame.display.flip()
