@@ -26,7 +26,13 @@ def main():
     clock = pygame.time.Clock()
     # fill the screen with a color to wipe away anything from last frame
     screen.fill("purple")
-    image = load_image('owls.png', -1)
+    image = load_image('robot.png', -1)
+    image1 = pygame.transform.scale(image, (300, 100))
+    screen.blit(image1, (100, 200))
+    image2 = pygame.transform.scale(image, (100, 300))
+    screen.blit(image2, (400, 200))
+    image3 = pygame.transform.scale(image, (200, 50))
+    screen.blit(image3, (700, 200))
     running = True
 
     while running:
