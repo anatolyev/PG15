@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Построили вторую функцию" />
+    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Создан файл main c главной функцией">
+      <change afterPath="$PROJECT_DIR$/1219_PyGame5/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,14 +37,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Anatolyev__Aleksey&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/anatolyevav/PycharmProjects/PG15&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Anatolyev__Aleksey",
+    "last_opened_file_path": "/home/anatolyevav/PycharmProjects/PG15/1219_PyGame5",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/1219_PyGame5" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.main (1)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PG15" />
@@ -51,11 +60,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1209_PyGame2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1219_PyGame5" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1209_PyGame2/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1219_PyGame5/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -72,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1205_PyGame1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1212_PyGame3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1205_PyGame1/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1212_PyGame3/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PG15" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -93,11 +102,53 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1205_PyGame1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1209_PyGame2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1205_PyGame1/main2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1209_PyGame2/main3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PG15" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1209_PyGame2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1209_PyGame2/main4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PG15" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1209_PyGame2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1209_PyGame2/main5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,10 +160,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.main2" />
+        <item itemvalue="Python.main5" />
+        <item itemvalue="Python.main4" />
+        <item itemvalue="Python.main3" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.main2" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +240,111 @@
       <option name="project" value="LOCAL" />
       <updated>1733406779694</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Добавлен второй пример из документации">
+      <option name="closed" value="true" />
+      <created>1733750966852</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733750966852</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Скорость изменения и кадры">
+      <option name="closed" value="true" />
+      <created>1733752211726</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733752211726</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Создан кролик">
+      <option name="closed" value="true" />
+      <created>1733752787660</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733752787660</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Создан кролик">
+      <option name="closed" value="true" />
+      <created>1733752993510</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733752993510</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Открытие примеров">
+      <option name="closed" value="true" />
+      <created>1733753357748</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733753357748</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Собственное событие по таймеру.">
+      <option name="closed" value="true" />
+      <created>1733753591779</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733753591779</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Простейший графический редактор">
+      <option name="closed" value="true" />
+      <created>1733753950316</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733753950316</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Простейший графический редактор 2">
+      <option name="closed" value="true" />
+      <created>1733754460019</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733754460019</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Создан класс для клеток">
+      <option name="closed" value="true" />
+      <created>1734010141915</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1734010141915</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Начал писать фунцию main">
+      <option name="closed" value="true" />
+      <created>1734010959856</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1734010959856</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Создали рендер с сеткой">
+      <option name="closed" value="true" />
+      <created>1734011728639</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1734011728639</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Создал реакцию на нажатие клеток">
+      <option name="closed" value="true" />
+      <created>1734012838947</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1734012838947</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Черное в белое и наоборот">
+      <option name="closed" value="true" />
+      <created>1734013945721</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1734013945721</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,6 +379,19 @@
     <MESSAGE value="Есть нерабочая версия программы" />
     <MESSAGE value="Привели к рабочей версии при помощи цикла из справки" />
     <MESSAGE value="Построили вторую функцию" />
-    <option name="LAST_COMMIT_MESSAGE" value="Построили вторую функцию" />
+    <MESSAGE value="Добавлен второй пример из документации" />
+    <MESSAGE value="Скорость изменения и кадры" />
+    <MESSAGE value="Создан кролик" />
+    <MESSAGE value="Открытие примеров" />
+    <MESSAGE value="Собственное событие по таймеру." />
+    <MESSAGE value="Простейший графический редактор" />
+    <MESSAGE value="Простейший графический редактор 2" />
+    <MESSAGE value="Создан класс для клеток" />
+    <MESSAGE value="Начал писать фунцию main" />
+    <MESSAGE value="Создали рендер с сеткой" />
+    <MESSAGE value="Создал реакцию на нажатие клеток" />
+    <MESSAGE value="Черное в белое и наоборот" />
+    <MESSAGE value="Создан файл main c главной функцией" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создан файл main c главной функцией" />
   </component>
 </project>
