@@ -14,8 +14,8 @@ VERTICAL_BORDERS = pygame.sprite.Group()
 #     if not os.path.isfile(fullname):
 #         print(f'Файл с изображением "{fullname}" не найден')
 #         sys.exit()
-#     image = pygame.image.load(fullname)
-#     return image
+#     images = pygame.images.load(fullname)
+#     return images
 
 class Ball(pygame.sprite.Sprite):
     def __init__(self, radius, x, y):
@@ -71,7 +71,7 @@ def main():
     clock = pygame.time.Clock()
     # fill the screen with a color to wipe away anything from last frame
 
-    # image = load_image('bomb.png')
+    # images = load_image('bomb.png')
     running = True
 
     while running:
@@ -82,7 +82,7 @@ def main():
             if event.type == pygame.QUIT:
                 running = False
             # if event.type == pygame.MOUSEBUTTONDOWN:
-            #     screen.blit(image, event.pos)
+            #     screen.blit(images, event.pos)
         # RENDER YOUR GAME HERE
         ALL_SPRITES.draw(screen)
         ALL_SPRITES.update()
