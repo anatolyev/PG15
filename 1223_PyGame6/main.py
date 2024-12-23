@@ -31,6 +31,11 @@ class Ball(pygame.sprite.Sprite):
 
     def update(self):
         self.rect = self.rect.move(self.vx, self.vy)
+        if pygame.sprite.spritecollideany(self, HORIZONTAL_BORDERS):
+            self.vy = -self.vy
+        if pygame.sprite.spritecollideany(self, VERTICAL_BORDERS):
+            self.vx = -self.vx
+
 
 
 class Border(pygame.sprite.Sprite):
@@ -65,11 +70,12 @@ def main():
 
     clock = pygame.time.Clock()
     # fill the screen with a color to wipe away anything from last frame
-    screen.fill("white")
+
     # image = load_image('bomb.png')
     running = True
 
     while running:
+        screen.fill("white")
         # poll for events
         # pygame.QUIT event means the user clicked X to close your window
         for event in pygame.event.get():
@@ -78,6 +84,9 @@ def main():
             # if event.type == pygame.MOUSEBUTTONDOWN:
             #     screen.blit(image, event.pos)
         # RENDER YOUR GAME HERE
+        ALL_SPRITES.draw(screen)
+        ALL_SPRITES.update()
+
         # flip() the display to put your work on screen
         pygame.display.flip()
         clock.tick(60)  # limits FPS to 60
