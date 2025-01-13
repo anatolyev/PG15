@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Создан файл main c главной функцией">
-      <change afterPath="$PROJECT_DIR$/1219_PyGame5/main.py" afterDir="false" />
+    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="рабочие горы и столкновения">
+      <change afterPath="$PROJECT_DIR$/5109_unittest_pytest/main_doctest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5109_unittest_pytest/main_pytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5109_unittest_pytest/main_unit.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5109_unittest_pytest/reverse.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,10 +26,13 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="9ea9f0c51728c522f1fe4e2a37f8aba023a6b81f" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -42,79 +48,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Anatolyev__Aleksey",
-    "last_opened_file_path": "/home/anatolyevav/PycharmProjects/PG15/1219_PyGame5",
+    "last_opened_file_path": "/home/anatolyevav/PycharmProjects/PG18",
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/1223_PyGame6" />
       <recent name="$PROJECT_DIR$/1219_PyGame5" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PG15" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1219_PyGame5" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1219_PyGame5/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PG15" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1212_PyGame3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1212_PyGame3/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PG15" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1209_PyGame2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1209_PyGame2/main3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Doctests in main_doctest">
     <configuration name="main4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PG15" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,13 +101,59 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Doctests in main_doctest" type="tests" factoryName="Doctests" temporary="true" nameIsGenerated="true">
+      <module name="PG15" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5109_unittest_pytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5109_unittest_pytest/main_doctest.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in main_pytest.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PG15" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5109_unittest_pytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/5109_unittest_pytest/main_pytest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in main_unit.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PG15" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5109_unittest_pytest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/5109_unittest_pytest/main_unit.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python tests.Doctests in main_doctest" />
+        <item itemvalue="Python tests.Python tests in main_pytest.py" />
+        <item itemvalue="Python tests.Python tests in main_unit.py" />
         <item itemvalue="Python.main5" />
         <item itemvalue="Python.main4" />
-        <item itemvalue="Python.main3" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +334,103 @@
       <option name="project" value="LOCAL" />
       <updated>1734013945721</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Создан файл main c главной функцией">
+      <option name="closed" value="true" />
+      <created>1734613465486</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1734613465486</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Добавлена функция загрузки изображений, и файлы с изображениями">
+      <option name="closed" value="true" />
+      <created>1734613962610</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1734613962610</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Добавил шаблон, добавил появление изображения.">
+      <option name="closed" value="true" />
+      <created>1734614199328</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1734614199328</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Прозрачная сова">
+      <option name="closed" value="true" />
+      <created>1734615314548</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1734615314548</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Работа с роботом">
+      <option name="closed" value="true" />
+      <created>1734615946382</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1734615946382</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Создание бомб">
+      <option name="closed" value="true" />
+      <created>1734617718846</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1734617718846</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Бомбы взрываются">
+      <option name="closed" value="true" />
+      <created>1734618161694</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1734618161694</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Добавили новый файл main с шаблоном">
+      <option name="closed" value="true" />
+      <created>1734960612190</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1734960612190</updated>
+    </task>
+    <task id="LOCAL-00030" summary="добавили классы шарика и границ и создали их">
+      <option name="closed" value="true" />
+      <created>1734961283192</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1734961283192</updated>
+    </task>
+    <task id="LOCAL-00031" summary="добавлены столкновения шариков с границами">
+      <option name="closed" value="true" />
+      <created>1734961812607</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1734961812607</updated>
+    </task>
+    <task id="LOCAL-00032" summary="нерабочие горы">
+      <option name="closed" value="true" />
+      <created>1734963061230</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1734963061230</updated>
+    </task>
+    <task id="LOCAL-00033" summary="рабочие горы и столкновения">
+      <option name="closed" value="true" />
+      <created>1734963082209</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1734963082209</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -371,13 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создан репозиторий" />
-    <MESSAGE value="Создана ветка main" />
-    <MESSAGE value="Создана новая папка 1202" />
-    <MESSAGE value="Создали окно с размером 800-600" />
-    <MESSAGE value="Создали цикл с ожиданием!" />
-    <MESSAGE value="Есть нерабочая версия программы" />
-    <MESSAGE value="Привели к рабочей версии при помощи цикла из справки" />
     <MESSAGE value="Построили вторую функцию" />
     <MESSAGE value="Добавлен второй пример из документации" />
     <MESSAGE value="Скорость изменения и кадры" />
@@ -392,6 +471,17 @@
     <MESSAGE value="Создал реакцию на нажатие клеток" />
     <MESSAGE value="Черное в белое и наоборот" />
     <MESSAGE value="Создан файл main c главной функцией" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создан файл main c главной функцией" />
+    <MESSAGE value="Добавлена функция загрузки изображений, и файлы с изображениями" />
+    <MESSAGE value="Добавил шаблон, добавил появление изображения." />
+    <MESSAGE value="Прозрачная сова" />
+    <MESSAGE value="Работа с роботом" />
+    <MESSAGE value="Создание бомб" />
+    <MESSAGE value="Бомбы взрываются" />
+    <MESSAGE value="Добавили новый файл main с шаблоном" />
+    <MESSAGE value="добавили классы шарика и границ и создали их" />
+    <MESSAGE value="добавлены столкновения шариков с границами" />
+    <MESSAGE value="нерабочие горы" />
+    <MESSAGE value="рабочие горы и столкновения" />
+    <option name="LAST_COMMIT_MESSAGE" value="рабочие горы и столкновения" />
   </component>
 </project>
