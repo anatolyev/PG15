@@ -3,6 +3,11 @@ import os
 import sys
 import pygame
 
+# Зависимости для меню
+import pygame_menu
+from pygame_menu.examples import create_example_window
+from typing import Tuple, Any
+
 # Внутренние зависимости:
 from data.config import *
 from data.classes import *
@@ -111,4 +116,29 @@ def game_cycle(user_name, difficulty):
         pygame.display.flip()
         clock.tick(FPS)
     terminate()
+
+
+def set_difficulty(selected: Tuple, value: Any) -> None:
+    """
+    Set the difficulty of the game.
+    """
+    print(f'Set difficulty to {selected[0]} ({value})')
+    global DIFFICULTY
+    DIFFICULTY = value
+
+
+def menu():
+    surface = create_example_window(GAME_NAME, SIZE)
+    menu = pygame_menu.Menu(
+        height=HEIGHT,
+        theme=pygame_menu.themes.THEME_BLUE,
+        title='Welcome',
+        width=WIDTH
+    )
+
+    user_name = menu.add.text_input('Представься: ', default=GAME_NAME, maxchar=10)
+    menu.add.selector('Сложность: ', [('Hard', 1), ('Easy', 2)], onchange=set_difficulty)
+    menu.add.button('Играть', lambda: game_cycle(user_name.get_value(), DIFFICULTY))
+    menu.add.button('Выход', terminate)
+    menu.mainloop(surface)
 

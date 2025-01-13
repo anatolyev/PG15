@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="рабочие горы и столкновения">
-      <change afterPath="$PROJECT_DIR$/5109_unittest_pytest/main_doctest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5109_unittest_pytest/main_pytest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5109_unittest_pytest/main_unit.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5109_unittest_pytest/reverse.py" afterDir="false" />
+    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Рисунки с урока 5.">
+      <change afterPath="$PROJECT_DIR$/5113_PyGame7/menu.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5113_PyGame7/data/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/5113_PyGame7/data/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5113_PyGame7/levels/level_easy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/5113_PyGame7/levels/level_easy.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5113_PyGame7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/5113_PyGame7/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,23 +43,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Anatolyev__Aleksey&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/anatolyevav/PycharmProjects/PG18&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Anatolyev__Aleksey",
+    "last_opened_file_path": "/home/anatolyevav/PycharmProjects/PG15",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/1223_PyGame6" />
       <recent name="$PROJECT_DIR$/1219_PyGame5" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Doctests in main_doctest">
-    <configuration name="main4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PG15" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -67,11 +67,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1209_PyGame2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5113_PyGame7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1209_PyGame2/main4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5113_PyGame7/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -80,7 +80,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="menu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PG15" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,11 +88,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1209_PyGame2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5113_PyGame7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1209_PyGame2/main5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5113_PyGame7/menu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.menu" />
         <item itemvalue="Python tests.Doctests in main_doctest" />
         <item itemvalue="Python tests.Python tests in main_pytest.py" />
         <item itemvalue="Python tests.Python tests in main_unit.py" />
-        <item itemvalue="Python.main5" />
-        <item itemvalue="Python.main4" />
       </list>
     </recent_temporary>
   </component>
@@ -430,7 +430,23 @@
       <option name="project" value="LOCAL" />
       <updated>1734963082209</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Заготовка для PG7">
+      <option name="closed" value="true" />
+      <created>1736772598095</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1736772598095</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Рисунки с урока 5.">
+      <option name="closed" value="true" />
+      <created>1736772653907</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1736772653907</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -457,8 +473,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Построили вторую функцию" />
-    <MESSAGE value="Добавлен второй пример из документации" />
     <MESSAGE value="Скорость изменения и кадры" />
     <MESSAGE value="Создан кролик" />
     <MESSAGE value="Открытие примеров" />
@@ -482,6 +496,8 @@
     <MESSAGE value="добавлены столкновения шариков с границами" />
     <MESSAGE value="нерабочие горы" />
     <MESSAGE value="рабочие горы и столкновения" />
-    <option name="LAST_COMMIT_MESSAGE" value="рабочие горы и столкновения" />
+    <MESSAGE value="Заготовка для PG7" />
+    <MESSAGE value="Рисунки с урока 5." />
+    <option name="LAST_COMMIT_MESSAGE" value="Рисунки с урока 5." />
   </component>
 </project>
