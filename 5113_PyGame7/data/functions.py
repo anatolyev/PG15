@@ -133,6 +133,10 @@ def game_cycle(user_name, difficulty):
         tiles_group.draw(screen)
         player_group.draw(screen)
 
+        # Выводим имя игрока:
+        string_rendered = font.render(f"Игрок {user_name}", 1, pygame.Color('white'))
+        screen.blit(string_rendered, string_rendered.get_rect())
+
         pygame.display.flip()
         clock.tick(FPS)
     terminate()
@@ -157,7 +161,7 @@ def menu():
     )
 
     user_name = menu.add.text_input('Представься: ', default=GAME_NAME, maxchar=10)
-    menu.add.selector('Сложность: ', [('Hard', 1), ('Easy', 2)], onchange=set_difficulty)
+    menu.add.selector('Сложность: ', [('Easy', 0), ('Hard', 1)], onchange=set_difficulty)
     menu.add.button('Правила игры', rules_screen)
     menu.add.button('Играть', lambda: game_cycle(user_name.get_value(), DIFFICULTY))
     menu.add.button('Выход', terminate)
