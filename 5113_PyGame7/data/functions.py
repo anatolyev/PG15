@@ -104,13 +104,30 @@ def game_cycle(user_name, difficulty):
     """Главный игровой цикл"""
 
     player, level_x, level_y = generate_level(load_level(LEVELS_LIST[difficulty]))
-
+    camera = Camera()
     running = True
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 running = False
                 break
+            if event.type == pygame.KEYDOWN:
+                match event.key:
+                    case pygame.K_LEFT:
+                        player.rect.x -= STEP
+                    case pygame.K_RIGHT:
+                        player.rect.x += STEP
+                    case pygame.K_UP:
+                        player.rect.y -= STEP
+                    case pygame.K_DOWN:
+                        player.rect.y += STEP
+
+
+        # изменяем ракурс камеры
+        camera.update(player)
+        # обновляем положение всех спрайтов
+        for sprite in all_sprites:
+            camera.apply(sprite)
 
         screen.fill(pygame.Color(0, 0, 0))
         tiles_group.draw(screen)

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Написали класс плейер">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Нарисовали игрока">
+      <change beforePath="$PROJECT_DIR$/5113_PyGame7/data/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/5113_PyGame7/data/classes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5113_PyGame7/data/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/5113_PyGame7/data/functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -467,7 +467,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736776818532</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Нарисовали игрока">
+      <option name="closed" value="true" />
+      <created>1736777247665</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1736777247665</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -494,7 +502,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Собственное событие по таймеру." />
     <MESSAGE value="Простейший графический редактор" />
     <MESSAGE value="Простейший графический редактор 2" />
     <MESSAGE value="Создан класс для клеток" />
@@ -519,6 +526,7 @@
     <MESSAGE value="Готово первое меню" />
     <MESSAGE value="Обновили меню. добавил переход в правила" />
     <MESSAGE value="Написали класс плейер" />
-    <option name="LAST_COMMIT_MESSAGE" value="Написали класс плейер" />
+    <MESSAGE value="Нарисовали игрока" />
+    <option name="LAST_COMMIT_MESSAGE" value="Нарисовали игрока" />
   </component>
 </project>
