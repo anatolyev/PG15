@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Рисунки с урока 5.">
-      <change afterPath="$PROJECT_DIR$/5113_PyGame7/menu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Готово первое меню">
       <change beforePath="$PROJECT_DIR$/5113_PyGame7/data/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/5113_PyGame7/data/functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5113_PyGame7/levels/level_easy.txt" beforeDir="false" afterPath="$PROJECT_DIR$/5113_PyGame7/levels/level_easy.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5113_PyGame7/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/5113_PyGame7/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -446,7 +442,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736772653907</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Готово первое меню">
+      <option name="closed" value="true" />
+      <created>1736775824736</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1736775824736</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -473,7 +477,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Скорость изменения и кадры" />
     <MESSAGE value="Создан кролик" />
     <MESSAGE value="Открытие примеров" />
     <MESSAGE value="Собственное событие по таймеру." />
@@ -498,6 +501,7 @@
     <MESSAGE value="рабочие горы и столкновения" />
     <MESSAGE value="Заготовка для PG7" />
     <MESSAGE value="Рисунки с урока 5." />
-    <option name="LAST_COMMIT_MESSAGE" value="Рисунки с урока 5." />
+    <MESSAGE value="Готово первое меню" />
+    <option name="LAST_COMMIT_MESSAGE" value="Готово первое меню" />
   </component>
 </project>

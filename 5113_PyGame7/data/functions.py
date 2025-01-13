@@ -81,7 +81,7 @@ def rules_screen():
             if event.type == pygame.QUIT:
                 terminate()
             elif event.type in (pygame.KEYUP, pygame.MOUSEBUTTONUP):
-                game_cycle("Марио", 0)
+                return  # закрываем окно правил и возвращаемся в меню
         pygame.display.flip()
         clock.tick(FPS)
 
@@ -131,13 +131,14 @@ def menu():
     surface = create_example_window(GAME_NAME, SIZE)
     menu = pygame_menu.Menu(
         height=HEIGHT,
-        theme=pygame_menu.themes.THEME_BLUE,
-        title='Welcome',
+        theme=pygame_menu.themes.THEME_ORANGE,
+        title=GAME_NAME,
         width=WIDTH
     )
 
     user_name = menu.add.text_input('Представься: ', default=GAME_NAME, maxchar=10)
     menu.add.selector('Сложность: ', [('Hard', 1), ('Easy', 2)], onchange=set_difficulty)
+    menu.add.button('Правила игры', rules_screen)
     menu.add.button('Играть', lambda: game_cycle(user_name.get_value(), DIFFICULTY))
     menu.add.button('Выход', terminate)
     menu.mainloop(surface)
