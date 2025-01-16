@@ -2,6 +2,7 @@
 import os
 import sys
 import pygame
+import random
 
 # Внутренние зависимости:
 from data.config import *
@@ -29,10 +30,21 @@ def terminate():
     pygame.quit()
     sys.exit()
 
+
+def create_particles(position):
+    # количество создаваемых частиц
+    particle_count = 20
+    # возможные скорости
+    numbers = range(-5, 6)
+    for _ in range(particle_count):
+        Particle(position, random.choice(numbers), random.choice(numbers))
+
+
+
 def game_cycle():
     """Главный игровой цикл"""
     dragon = AnimatedSprite(load_image("dragon_sheet8x2.png"), 8, 2, 50, 50)
-    sound = pygame.mixer.Sound(SOUNDS + "in.wav")
+    sound = pygame.mixer.Sound(SOUNDS + "vineboom.mp3")
     vol = 1
     running = True
     сount_animation = 0
@@ -42,6 +54,7 @@ def game_cycle():
                 running = False
                 break
             if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+                create_particles(pygame.mouse.get_pos())
                 channel = sound.play()
                 sound.set_volume(vol)
             if event.type == pygame.MOUSEBUTTONDOWN and event.button == 4:

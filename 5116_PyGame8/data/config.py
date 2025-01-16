@@ -8,6 +8,7 @@ SIZE = WIDTH, HEIGHT = 800, 600
 STEP = 50
 IMAGES = "images/"
 SOUNDS = "sounds/"
+GRAVITY = 0.25
 
 DIFFICULTY = 0  # Сложность игры (и/или выбор уровня)
 
@@ -29,3 +30,4 @@ clock = pygame.time.Clock()
 # Группы спрайтов
 all_sprites = pygame.sprite.Group()
 
+screen_rect = (0, 0, WIDTH, HEIGHT)

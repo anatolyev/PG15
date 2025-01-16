@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Установили скорость анимации динозаврика.">
+    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Добавили звук и регулировку">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5116_PyGame8/data/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/5116_PyGame8/data/classes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5116_PyGame8/data/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/5116_PyGame8/data/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5116_PyGame8/data/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/5116_PyGame8/data/functions.py" afterDir="false" />
     </list>
@@ -524,7 +525,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737034819815</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Добавили звук и регулировку">
+      <option name="closed" value="true" />
+      <created>1737035794856</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1737035794856</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -551,7 +560,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создал реакцию на нажатие клеток" />
     <MESSAGE value="Черное в белое и наоборот" />
     <MESSAGE value="Создан файл main c главной функцией" />
     <MESSAGE value="Добавлена функция загрузки изображений, и файлы с изображениями" />
@@ -576,6 +584,7 @@
     <MESSAGE value="Создали заготовку для PyGame8" />
     <MESSAGE value="Динозаврик двигается" />
     <MESSAGE value="Установили скорость анимации динозаврика." />
-    <option name="LAST_COMMIT_MESSAGE" value="Установили скорость анимации динозаврика." />
+    <MESSAGE value="Добавили звук и регулировку" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавили звук и регулировку" />
   </component>
 </project>
