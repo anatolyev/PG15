@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Криво но работают частицы.">
+    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Исправлены частицы. Теперь изображение передаем в класс.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5116_PyGame8/data/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/5116_PyGame8/data/classes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5116_PyGame8/data/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/5116_PyGame8/data/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5116_PyGame8/data/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/5116_PyGame8/data/functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -541,7 +540,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737036785771</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Исправлены частицы. Теперь изображение передаем в класс.">
+      <option name="closed" value="true" />
+      <created>1737037441866</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1737037441866</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -568,7 +575,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создан файл main c главной функцией" />
     <MESSAGE value="Добавлена функция загрузки изображений, и файлы с изображениями" />
     <MESSAGE value="Добавил шаблон, добавил появление изображения." />
     <MESSAGE value="Прозрачная сова" />
@@ -593,6 +599,7 @@
     <MESSAGE value="Установили скорость анимации динозаврика." />
     <MESSAGE value="Добавили звук и регулировку" />
     <MESSAGE value="Криво но работают частицы." />
-    <option name="LAST_COMMIT_MESSAGE" value="Криво но работают частицы." />
+    <MESSAGE value="Исправлены частицы. Теперь изображение передаем в класс." />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлены частицы. Теперь изображение передаем в класс." />
   </component>
 </project>

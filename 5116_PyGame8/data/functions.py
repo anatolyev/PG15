@@ -37,10 +37,15 @@ def create_particles(position):
     particle_count = 20
     # возможные скорости
     numbers = range(-5, 6)
+    global set_particles
     for _ in range(particle_count):
-        Particle(fire, position, random.choice(numbers), random.choice(numbers))
-
-
+        set_particles.append(Particle(fire, position,
+                                      random.choice(numbers),
+                                      random.choice(numbers)))
+    for part in set_particles:
+        if abs(part.rect.x) > WIDTH or abs(part.rect.y) > HEIGHT:
+            set_particles.remove(part)
+        print(len(set_particles))
 
 def game_cycle():
     """Главный игровой цикл"""
@@ -49,6 +54,8 @@ def game_cycle():
     vol = 1
     running = True
     сount_animation = 0
+    global set_particles
+    set_particles = []
     while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -65,9 +72,12 @@ def game_cycle():
             sound.set_volume(vol)
         screen.fill(pygame.Color(0, 0, 0))
         if сount_animation % 5 == 0:
-            all_sprites.update()
+            # all_sprites.update()
+            dragon.update()
             сount_animation = 0
         сount_animation += 1
+        for fire in set_particles:
+            fire.update()
         all_sprites.draw(screen)
         pygame.display.flip()
         clock.tick(FPS)
