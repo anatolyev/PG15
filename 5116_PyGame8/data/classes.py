@@ -1,24 +1,8 @@
 import pygame
-from data.config import *
-import os
 import random
+from data.config import *
 
 
-def load_image(name, color_key=None):
-    """Загрузка изображений"""
-    fullname = os.path.join(IMAGES, name)
-    try:
-        image = pygame.image.load(fullname)
-    except pygame.error as message:
-        print('Невозможно загрузить изображение из файла:', fullname)
-        raise SystemExit(message)
-    if color_key is not None:
-        if color_key == -1:
-            color_key = image.get_at((0, 0))
-        image.set_colorkey(color_key)
-    else:
-        image = image.convert_alpha()
-    return image
 
 class AnimatedSprite(pygame.sprite.Sprite):
     def __init__(self, sheet, colums, rows, x, y):
@@ -44,15 +28,11 @@ class AnimatedSprite(pygame.sprite.Sprite):
         self.image = self.frames[self.cur_frame]
 
 class Particle(pygame.sprite.Sprite):
-    # сгенерируем частицы разного размера
-
-    fire = [load_image("star.png")]
-    for scale in (5, 10, 20):
-        fire.append(pygame.transform.scale(fire[0], (scale, scale)))
-
-    def __init__(self, pos, dx, dy):
+    def __init__(self, fire, pos, dx, dy):
         super().__init__(all_sprites)
-        self.image = random.choice(self.fire)
+        for scale in (5, 10, 20):
+            fire.append(pygame.transform.scale(fire[0], (scale, scale)))
+        self.image = random.choice(fire)
         self.rect = self.image.get_rect()
 
         # у каждой частицы своя скорость — это вектор

@@ -32,12 +32,13 @@ def terminate():
 
 
 def create_particles(position):
+    fire = [load_image("star.png")]
     # количество создаваемых частиц
     particle_count = 20
     # возможные скорости
     numbers = range(-5, 6)
     for _ in range(particle_count):
-        Particle(position, random.choice(numbers), random.choice(numbers))
+        Particle(fire, position, random.choice(numbers), random.choice(numbers))
 
 
 
