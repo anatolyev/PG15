@@ -32,6 +32,8 @@ def terminate():
 def game_cycle():
     """Главный игровой цикл"""
     dragon = AnimatedSprite(load_image("dragon_sheet8x2.png"), 8, 2, 50, 50)
+    sound = pygame.mixer.Sound(SOUNDS + "in.wav")
+    vol = 1
     running = True
     сount_animation = 0
     while running:
@@ -39,7 +41,14 @@ def game_cycle():
             if event.type == pygame.QUIT:
                 running = False
                 break
-
+            if event.type == pygame.MOUSEBUTTONDOWN and event.button == 1:
+                channel = sound.play()
+                sound.set_volume(vol)
+            if event.type == pygame.MOUSEBUTTONDOWN and event.button == 4:
+                vol += 0.1
+            if event.type == pygame.MOUSEBUTTONDOWN and event.button == 5:
+                vol -= 0.1
+            sound.set_volume(vol)
         screen.fill(pygame.Color(0, 0, 0))
         if сount_animation % 5 == 0:
             all_sprites.update()

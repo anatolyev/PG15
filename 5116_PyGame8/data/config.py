@@ -1,4 +1,5 @@
 import pygame
+from pygame.locals import RESIZABLE
 
 # Константы:
 GAME_NAME = "Анимация и звук"
@@ -6,6 +7,7 @@ FPS = 50
 SIZE = WIDTH, HEIGHT = 800, 600
 STEP = 50
 IMAGES = "images/"
+SOUNDS = "sounds/"
 
 DIFFICULTY = 0  # Сложность игры (и/или выбор уровня)
 
@@ -21,7 +23,7 @@ font = pygame.font.Font(None, 30)
 # Задержка для зажатой клавиши. Например, при движении игрока.
 pygame.key.set_repeat(200, 70)
 
-screen = pygame.display.set_mode(SIZE)
+screen = pygame.display.set_mode(SIZE, RESIZABLE)
 clock = pygame.time.Clock()
 
 # Группы спрайтов

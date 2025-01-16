@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Создали заготовку для PyGame8">
+    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Установили скорость анимации динозаврика.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/5116_PyGame8/data/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/5116_PyGame8/data/classes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5116_PyGame8/data/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/5116_PyGame8/data/config.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/5116_PyGame8/data/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/5116_PyGame8/data/functions.py" afterDir="false" />
     </list>
@@ -509,7 +508,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737032206838</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Динозаврик двигается">
+      <option name="closed" value="true" />
+      <created>1737034589437</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1737034589437</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Установили скорость анимации динозаврика.">
+      <option name="closed" value="true" />
+      <created>1737034819815</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1737034819815</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -536,8 +551,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Начал писать фунцию main" />
-    <MESSAGE value="Создали рендер с сеткой" />
     <MESSAGE value="Создал реакцию на нажатие клеток" />
     <MESSAGE value="Черное в белое и наоборот" />
     <MESSAGE value="Создан файл main c главной функцией" />
@@ -561,6 +574,8 @@
     <MESSAGE value="Добавили камеру и движение" />
     <MESSAGE value="Игра работает. и выводит имя игрока" />
     <MESSAGE value="Создали заготовку для PyGame8" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создали заготовку для PyGame8" />
+    <MESSAGE value="Динозаврик двигается" />
+    <MESSAGE value="Установили скорость анимации динозаврика." />
+    <option name="LAST_COMMIT_MESSAGE" value="Установили скорость анимации динозаврика." />
   </component>
 </project>
