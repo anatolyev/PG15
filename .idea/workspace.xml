@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Игра работает. и выводит имя игрока">
+    <list default="true" id="6f4e88ce-d586-4f7a-8fe7-588560e8727d" name="Changes" comment="Создали заготовку для PyGame8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5116_PyGame8/data/classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/5116_PyGame8/data/classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5116_PyGame8/data/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/5116_PyGame8/data/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5116_PyGame8/data/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/5116_PyGame8/data/functions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,22 +42,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Anatolyev__Aleksey&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/anatolyevav/PycharmProjects/PG18&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Anatolyev__Aleksey",
+    "last_opened_file_path": "/home/anatolyevav/PycharmProjects/PG15/5116_PyGame8",
+    "settings.editor.selected.configurable": "preferences.editor"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/5116_PyGame8" />
       <recent name="$PROJECT_DIR$/1223_PyGame6" />
       <recent name="$PROJECT_DIR$/1219_PyGame5" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PG15" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5116_PyGame8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5116_PyGame8/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PG15" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,27 +154,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in main_unit.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="PG15" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5109_unittest_pytest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/5109_unittest_pytest/main_unit.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.menu" />
         <item itemvalue="Python tests.Doctests in main_doctest" />
         <item itemvalue="Python tests.Python tests in main_pytest.py" />
-        <item itemvalue="Python tests.Python tests in main_unit.py" />
       </list>
     </recent_temporary>
   </component>
@@ -490,7 +501,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736778190708</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Создали заготовку для PyGame8">
+      <option name="closed" value="true" />
+      <created>1737032206838</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1737032206838</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -517,7 +536,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Создан класс для клеток" />
     <MESSAGE value="Начал писать фунцию main" />
     <MESSAGE value="Создали рендер с сеткой" />
     <MESSAGE value="Создал реакцию на нажатие клеток" />
@@ -542,6 +560,7 @@
     <MESSAGE value="Нарисовали игрока" />
     <MESSAGE value="Добавили камеру и движение" />
     <MESSAGE value="Игра работает. и выводит имя игрока" />
-    <option name="LAST_COMMIT_MESSAGE" value="Игра работает. и выводит имя игрока" />
+    <MESSAGE value="Создали заготовку для PyGame8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создали заготовку для PyGame8" />
   </component>
 </project>

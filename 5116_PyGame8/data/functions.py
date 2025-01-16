@@ -29,9 +29,9 @@ def terminate():
     pygame.quit()
     sys.exit()
 
-def game_cycle(user_name, difficulty):
+def game_cycle():
     """Главный игровой цикл"""
-
+    dragon = AnimatedSprite(load_image("dragon_sheet8x2.png"), 8, 2, 50, 50)
     running = True
     while running:
         for event in pygame.event.get():
@@ -40,9 +40,8 @@ def game_cycle(user_name, difficulty):
                 break
 
         screen.fill(pygame.Color(0, 0, 0))
-        # Выводим имя игрока:
-        string_rendered = font.render(f"Игрок {user_name}", 1, pygame.Color('white'))
-        screen.blit(string_rendered, string_rendered.get_rect())
+        all_sprites.draw(screen)
+        all_sprites.update()
 
         pygame.display.flip()
         clock.tick(FPS)

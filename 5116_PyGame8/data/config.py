@@ -3,7 +3,7 @@ import pygame
 # Константы:
 GAME_NAME = "Анимация и звук"
 FPS = 50
-SIZE = WIDTH, HEIGHT = 400, 300
+SIZE = WIDTH, HEIGHT = 800, 600
 STEP = 50
 IMAGES = "images/"
 
@@ -26,5 +26,4 @@ clock = pygame.time.Clock()
 
 # Группы спрайтов
 all_sprites = pygame.sprite.Group()
-tiles_group = pygame.sprite.Group()
-player_group = pygame.sprite.Group()
+
